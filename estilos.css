@@ -1,0 +1,53 @@
+.container{
+    width: 700px;
+    height:400px ;
+    display:flex ;
+    flex-direction:row ;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.info{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    margin:2rem ;
+    width:300px ;
+
+
+}
+.info h1{
+
+    margin:0 0 2rem ;
+    text-align:center ;
+}
+.info ul li{
+
+    list-style:none ;
+    margin:1rem 0;
+    font-size:small ;
+}
+
+.info ul li img{
+    margin-right:1rem ;
+
+
+
+}
+    
+
+
+
+
+.banner{
+    width:300px ;
+    background-image:url(assets/images/illustration-sign-up-desktop.svg) ;
+    background-repeat:no-repeat ;
+    background-position:center;
+    background-size: cover ; 
+    margin: 1rem ;
+    border-radius: 1rem;
+
+
+}
